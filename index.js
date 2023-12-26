@@ -20,7 +20,7 @@ const options = {
       },
       servers: [
         {
-          url: `http://localhost:f${port}`,
+          url: `https://group18.azurewebsites.net/api-docs/`,
         },
       ],
       components: {
