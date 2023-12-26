@@ -20,7 +20,7 @@ const options = {
       },
       servers: [
         {
-          url: `https://group18.azurewebsites.net/`,
+          url: `https://group18.azurewebsites.net`,
         },
       ],
       components: {
@@ -47,7 +47,8 @@ const options = {
 
 // MongoDB connection URL 
 const uri = 
-'mongodb+srv://Alifah:FXwzuFbI9bOat0w6@cluster0.ali2uob.mongodb.net/VisitorManagement'; 
+'mongodb+srv://AISYAH26:_Echott26@benr3433.if4c89l.mongodb.net/?retryWrites=true&w=majority'; 
+
 // Create a new MongoClient 
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true }); 
